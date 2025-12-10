@@ -65,35 +65,7 @@ You can run both Client and Server with a single command from the project **root
   - View Contact Form Submissions
   - View Newsletter Subscribers
 
-## How to Push to GitHub
-1.  Create a new Repository on GitHub (do not initialize with README).
-2.  Open your terminal in the `fullstack-assignment` folder.
-3.  Initialize Git:
-    ```bash
-    git init
-    ```
-4.  Create a `.gitignore` file (if not exists) to exclude `node_modules` and `.env`:
-    ```bash
-    echo "node_modules/" >> .gitignore
-    echo ".env" >> .gitignore
-    ```
-    *(Note: Do this for both client and server directories if needed, or one in root)*
-5.  Add files to staging:
-    ```bash
-    git add .
-    ```
-6.  Commit changes:
-    ```bash
-    git commit -m "Initial commit - Full Stack Assignment"
-    ```
-7.  Link to your GitHub repo:
-    ```bash
-    git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-    ```
-8.  Push code:
-    ```bash
-    git push -u origin master
-    ```
+
 
 ## Evaluation Criteria Met
 - **Functionality**: Full CRUD for Projects/Clients, Contact Form submission, Newsletter.
